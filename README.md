@@ -48,11 +48,11 @@ Notification Settings
 - Config.NotifyCheat = "Nice try, but that won't work"
 
 Laundering Locations
-Config.LaunderingLocations = {
+'''Config.LaunderingLocations = {
     vector3(1136.14, -989.54, 46.11), -- Example location (customize as needed)
     vector3(-1117.21, -503.12, 35.81), -- Example location (customize as needed)
     -- Add more locations as needed
-}
+}'''
 
 # Usage
 Approach one of the money laundering locations on the map
