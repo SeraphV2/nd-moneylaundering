@@ -4,14 +4,14 @@
 A configurable money laundering script for QBCore framework that works with OX Inventory, allowing players to convert marked bills into clean cash.
 
 # Features
-Launder marked bills (dirty money) into clean cash
-Configurable laundering fee
-Multiple laundering locations using vector3 coordinates
-Option to launder all dirty money at once or a custom amount
-Customizable blips and notifications
-Progress bar with animation during laundering
-Logging of laundering transactions
-Full OX Inventory compatibility
+- Launder marked bills (dirty money) into clean cash
+- Configurable laundering fee
+- Multiple laundering locations using vector3 coordinates
+- Option to launder all dirty money at once or a custom amount
+- Customizable blips and notifications
+- Progress bar with animation during laundering
+- Logging of laundering transactions
+- Full OX Inventory compatibility
 
 # Installation
 Download the resource
