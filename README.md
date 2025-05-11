@@ -57,44 +57,47 @@ Config.LaunderingLocations = {
  ``` 
 
 # Usage
-Approach one of the money laundering locations on the map
-Press E to interact with the money launderer
-Choose to either launder all your dirty money at once or enter a custom amount
-Wait for the laundering process to complete
-Receive your clean money minus the laundering fee
-OX Inventory Integration
+- Approach one of the money laundering locations on the map
+- Press E to interact with the money launderer
+- Choose to either launder all your dirty money at once or enter a custom amount
+- Wait for the laundering process to complete
+- Receive your clean money minus the laundering fee
+- OX Inventory Integration
 
 # This script is specifically designed to work with OX Inventory for QBCore. It uses the OX Inventory exports to:
 
-Check for marked bills in the player's inventory
-Remove marked bills when laundering
-Add clean money as an item (if configured)
-The script handles all marked bills correctly, ensuring that when a player chooses to "Launder All", it properly removes all marked bills from their inventory.
+- Check for marked bills in the player's inventory
+- Remove marked bills when laundering
+- Add clean money as an item (if configured)
+- The script handles all marked bills correctly, ensuring that when a player chooses to "Launder All", it properly removes all marked bills from their inventory.
 
 # Dependencies
-QBCore Framework
-OX Inventory
-qb-menu
-qb-input
-Optional Dependencies
-qb-log (for transaction logging)
-How It Works
+- QBCore Framework
+- OX Inventory
+- qb-menu
+- qb-input
+- Optional Dependencies
+- qb-log (for transaction logging)
+
+# How It Works
 The script allows players to convert their marked bills (dirty money) into clean cash that can be used legally in the server. When a player chooses to launder money, the script:
 
-Uses OX Inventory exports to check if the player has enough marked bills
-Calculates the fee based on the configured percentage
-Removes the marked bills from the player's inventory using OX Inventory exports
-Adds the clean money (minus the fee) to the player's cash account or as an item
-Notifies the player of the successful transaction
-Troubleshooting
-If you encounter issues with marked bills not being properly removed:
+- Uses OX Inventory exports to check if the player has enough marked bills
+- Calculates the fee based on the configured percentage
+- Removes the marked bills from the player's inventory using OX Inventory exports
+- Adds the clean money (minus the fee) to the player's cash account or as an item
+- Notifies the player of the successful transaction
+- Troubleshooting
+- If you encounter issues with marked bills not being properly removed:
 
-Make sure OX Inventory is properly installed and configured
-Check that the item name in your config matches the actual item name in your OX Inventory database
-Verify that the player has the marked bills in their inventory
+# Checks
 
-License
+1. Make sure OX Inventory is properly installed and configured
+2. Check that the item name in your config matches the actual item name in your OX Inventory database
+3. Verify that the player has the marked bills in their inventory
+
+# License
 This resource is released under the MIT License.
 
-Support
-For support, please open an issue on the GitHub repository or contact us through our Discord server.
+# Support
+For support, please open an issue on the GitHub repository.
