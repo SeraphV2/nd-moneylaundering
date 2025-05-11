@@ -14,13 +14,13 @@ A configurable money laundering script for QBCore framework that works with OX I
 - Full OX Inventory compatibility
 
 # Installation
-Download the resource
-Place it in your server's resources folder
-Add ensure nd_moneylaundering to your server.cfg
-Configure the script in config.lua to match your server's needs
-Restart your server
-Configuration
-The script is highly configurable through the config.lua file:
+1. Download the resource
+2. Place it in your server's resources folder
+3. Add ensure nd_moneylaundering to your server.cfg
+4. Configure the script in config.lua to match your server's needs
+5. Restart your server
+6. Configuration
+7. The script is highly configurable through the config.lua file:
 
 # Money Laundering Settings
 Config.LaunderingFee = 0.3 -- 30% fee
