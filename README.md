@@ -12,7 +12,8 @@ Customizable blips and notifications
 Progress bar with animation during laundering
 Logging of laundering transactions
 Full OX Inventory compatibility
-Installation
+
+# Installation
 Download the resource
 Place it in your server's resources folder
 Add ensure nd_moneylaundering to your server.cfg
