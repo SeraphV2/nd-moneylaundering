@@ -1,6 +1,6 @@
-### nd-moneylaundering
+# nd-moneylaundering
 
-## Money Laundering Script for QBCore with OX Inventory Support
+# Money Laundering Script for QBCore with OX Inventory Support
 A configurable money laundering script for QBCore framework that works with OX Inventory, allowing players to convert marked bills into clean cash.
 
 # Features
